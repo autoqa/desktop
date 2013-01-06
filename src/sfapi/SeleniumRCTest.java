@@ -49,6 +49,8 @@ public class SeleniumRCTest {
         flexUITester.type("admin").at("userNameTextInput");
         flexUITester.type("admin").at("passwordTextInput");
         flexUITester.click("submitButton");
+        //flexUITester.readFrom("")
+        //flexUITester.
         //assertEquals("x", flexUITester.toString());
 
 

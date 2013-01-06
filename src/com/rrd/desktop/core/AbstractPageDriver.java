@@ -6,12 +6,10 @@
  * Time: 12:51 PM
  */
 
-package com.rrd.desktop.page;
+package com.rrd.desktop.core;
 
-import com.rrd.desktop.FlexSelenium;
-import com.rrd.desktop.call.FlashCall;
-import com.rrd.desktop.call.FlashCallTimer;
-import org.junit.Assert;
+import com.rrd.desktop.calls.*;
+import org.testng.Assert;
 
 public class AbstractPageDriver {
     private static final String ACTION_SUCCESS = "true";

@@ -6,7 +6,7 @@
  * Time: 1:07 PM
  */
 
-package com.rrd.desktop;
+package com.rrd.desktop.core;
 
 import com.thoughtworks.selenium.FlashSelenium;
 import com.thoughtworks.selenium.Selenium;

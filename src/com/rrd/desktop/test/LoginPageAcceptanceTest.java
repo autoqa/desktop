@@ -8,16 +8,27 @@
 
 package com.rrd.desktop.test;
 
+import com.rrd.desktop.core.AcceptanceTestBase;
 import com.rrd.desktop.page.LoginPageDriver;
-//import org.testng.annotations.Test;
-import org.junit.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-public class LoginPageAcceptanceTest extends AcceptanceTestBase{
-    private LoginPageDriver login;
+public class LoginPageAcceptanceTest extends AcceptanceTestBase {
+    private LoginPageDriver loginPage;
+
+    @BeforeClass
+    public void setUp() {
+        System.out.println("LoginPageAcceptanceTest.setUpPageDriver BeforeClass");
+        loginPage = new LoginPageDriver(getFlashApp());
+        loginPage.navigateToPage();
+    }
 
     @Test
     public void loginTest() {
-        login.enterUsername("admin");
-        login.enterPassword("admin");
+        loginPage.enterUsername("admin");
+        loginPage.enterPassword("admin");
+        loginPage.clickSubmit();
     }
+
+
 }

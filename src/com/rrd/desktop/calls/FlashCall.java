@@ -1,4 +1,4 @@
-package com.rrd.desktop.call;
+package com.rrd.desktop.calls;
 
 /**
  * RR Donnelley - Nimblefish

@@ -1,4 +1,4 @@
-package com.rrd.desktop;
+package com.rrd.desktop.core;
 
 /**
  * RR Donnelley - Nimblefish

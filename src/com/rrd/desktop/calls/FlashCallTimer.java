@@ -4,13 +4,12 @@
  * Date: 12/27/12
  * Time: 11:53 AM
  */
-package com.rrd.desktop.call;
-
+package com.rrd.desktop.calls;
 
 import org.testng.Assert;
 
 public class FlashCallTimer {
-    private static final long INCREMENT = 250L;
+    private static final long INCREMENT = 500L;
 
     private FlashCallTimer() {
         // static helper
