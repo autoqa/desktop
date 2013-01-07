@@ -19,6 +19,9 @@ public class LoginPageDriver extends AbstractPageDriver {
     private static final String SUBMIT_BUTTON_ID = "submitButton";
     private static final int APP_LOAD_TIMEOUT_MS = 120000;
 
+    private static final String LOGGED_IN_USER_FIELD_ID = "_MenuBar_Main_Label1";   //loggedInUserName
+    private static final String LOGOUT_LINK_ID = "logout";
+
     public LoginPageDriver(FlexSelenium flexSelenium) {
         super(flexSelenium);
     }
@@ -48,6 +51,10 @@ public class LoginPageDriver extends AbstractPageDriver {
             }
         }
         Assert.fail("Application did not load");
+    }
+
+    public void checkLoggedInUser(final String firstAndLastName){
+        ensureWidgetHasText(LOGGED_IN_USER_FIELD_ID, "Hi, " + firstAndLastName + "!");
     }
 }
 

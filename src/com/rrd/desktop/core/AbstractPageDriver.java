@@ -212,12 +212,13 @@ public class AbstractPageDriver {
         ensureWidgetEnabled(widgetId, true);
         FlashCallTimer.waitForCall(TIMEOUT_MILLIS, new FlashDataGridRowHasLabelCall(flexSelenium, widgetId, row, property, expectedValue));
     }
+    */
 
     protected void ensureWidgetHasText(final String widgetId, final String expectedText) {
-        ensureWidgetVisibility(widgetId, true);
+        //ensureWidgetVisibility(widgetId, true);
         FlashCallTimer.waitForCall(TIMEOUT_MILLIS, new FlashTextHasValueCall(flexSelenium, widgetId, expectedText));
     }
-
+    /*
     protected void ensureWidgetHasMatchingText(final String widgetId, final String regularExpression) {
         ensureWidgetVisibility(widgetId, true);
 
