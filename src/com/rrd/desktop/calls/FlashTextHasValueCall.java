@@ -3,7 +3,7 @@ package com.rrd.desktop.calls;
 import com.rrd.desktop.core.FlexSelenium;
 import com.thoughtworks.selenium.HttpCommandProcessor;
 
-public class FlashTextHasValueCall implements FlashCall {
+public class    FlashTextHasValueCall implements FlashCall {
 
 	private String objectId;
 	private FlexSelenium flashApp;

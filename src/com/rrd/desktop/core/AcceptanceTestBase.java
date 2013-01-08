@@ -9,6 +9,7 @@ package com.rrd.desktop.core;
  */
 
 import com.thoughtworks.selenium.DefaultSelenium;
+import com.thoughtworks.selenium.HttpCommandProcessor;
 import com.thoughtworks.selenium.Selenium;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -22,6 +23,7 @@ public abstract class AcceptanceTestBase  {
 
     static Properties properties;
     static Selenium selenium;
+    static HttpCommandProcessor proc;
     private FlexSelenium flexSelenium;
 
     /**
@@ -36,13 +38,21 @@ public abstract class AcceptanceTestBase  {
         System.out.println("AcceptanceTestBase.setUpClass BeforeTest");
         properties = new Properties();
         properties.load(new FileInputStream("test.properties"));
-
+        /*
         selenium = new DefaultSelenium(
                 properties.getProperty("selenium.serverHost"),
                 Integer.valueOf(properties.getProperty("selenium.serverPort")),
                 properties.getProperty("selenium.browserStartCommand"),
                 properties.getProperty("selenium.browserUrl"));
+        */
 
+        proc = new HttpCommandProcessor(
+                properties.getProperty("selenium.serverHost"),
+                Integer.valueOf(properties.getProperty("selenium.serverPort")),
+                properties.getProperty("selenium.browserStartCommand"),
+                properties.getProperty("selenium.browserUrl"));
+
+        selenium = new DefaultSelenium(proc);
 
         //selenium = new DefaultSelenium("localhost", 4444, "*firefox" ,"https://app.devlinux.nimblefish.com");
 

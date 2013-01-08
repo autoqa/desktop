@@ -29,6 +29,7 @@ public class SeleniumRCTest {
         //flashApp = new FlashSelenium(selenium, "desktop");
         selenium.open(PAGE);
         flexUITester = new FlexUISelenium(selenium, "desktop");
+
         flexUITester.waitUntilLoaded();
     }
 
@@ -45,10 +46,16 @@ public class SeleniumRCTest {
         //System.out.println(flashApp.toString());
 
 
+
         Thread.sleep(7000);
+        //flexUITester.waitUntilVisible("userNameTextInput");
         flexUITester.type("admin").at("userNameTextInput");
         flexUITester.type("admin").at("passwordTextInput");
         flexUITester.click("submitButton");
+        //flexUITester.waitUntilVisible("logout");
+        flexUITester = new FlexUISelenium(selenium, "desktop");
+        flexUITester.click("logout");
+
         //flexUITester.readFrom("")
         //flexUITester.
         //assertEquals("x", flexUITester.toString());

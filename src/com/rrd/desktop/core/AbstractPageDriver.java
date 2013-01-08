@@ -97,17 +97,31 @@ public class AbstractPageDriver {
             }
         });
     }
+
+    protected void enterText(final String widgetId, final String text) {
+        ensureWidgetVisibility(widgetId, true);
+        ensureWidgetEnabled(widgetId, true);
+        flexSelenium.enterText(widgetId, text);
+    }
+
+    protected void ensureWidgetHasText(final String widgetId, final String expectedText) {
+        ensureWidgetVisibility(widgetId, true);
+        FlashCallTimer.waitForCall(TIMEOUT_MILLIS, new FlashTextHasValueCall(flexSelenium, widgetId, expectedText));
+    }
+
+    protected void selectTextCommand(final String value){
+
+    }
+
     /*
     protected void ensureCheckBoxState(final String widgetId, final boolean expectedState) {
         ensureWidgetVisibility(widgetId, true);
         FlashCallTimer.waitForCall(TIMEOUT_MILLIS, new FlashCheckboxCheckedCall(flexSelenium, widgetId, expectedState));
     }
     */
-    protected void enterText(final String widgetId, final String text) {
-        ensureWidgetVisibility(widgetId, true);
-        ensureWidgetEnabled(widgetId, true);
-        flexSelenium.enterText(widgetId, text);
-    }
+
+
+
      /*
     protected void enterDate(final String widgetId, final Calendar date, final String format) {
         final DateFormat formatter = new SimpleDateFormat(format);
@@ -214,10 +228,7 @@ public class AbstractPageDriver {
     }
     */
 
-    protected void ensureWidgetHasText(final String widgetId, final String expectedText) {
-        //ensureWidgetVisibility(widgetId, true);
-        FlashCallTimer.waitForCall(TIMEOUT_MILLIS, new FlashTextHasValueCall(flexSelenium, widgetId, expectedText));
-    }
+
     /*
     protected void ensureWidgetHasMatchingText(final String widgetId, final String regularExpression) {
         ensureWidgetVisibility(widgetId, true);
