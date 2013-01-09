@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c595777-fde1-4f2e-b4f9-0f60c73f0869" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/core/FlexCommandProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/core/FlexMonkium.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sfapi/LoginLogout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sfapi/LoginLogoutWebDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sfapi/Selenium2Example.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_java_2_28_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_server_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_6_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/spring_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aopalliance.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bcprov-jdk15-135.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bsh-2.0b4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cglib-nodep-2.1_3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-codec-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-io-2.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-lang-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-logging.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cssparser-0.9.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/guava-r09.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/guice-2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hamcrest-core-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/htmlunit-2.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/htmlunit-core-js-2.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpclient-4.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpcore-4.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpmime-4.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jcip-annotations-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jcommander-1.27.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jna-3.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/json-20080701.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/junit-4.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/mx4j-tools-3.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/nekohtml-1.9.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sac-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-android-driver-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-api-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-chrome-driver-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-firefox-driver-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-htmlunit-driver-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-ie-driver-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-iphone-driver-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-java-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-remote-driver-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-server-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium-support-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/serializer-2.7.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/servlet-api-2.5-6.1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/snakeyaml-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/snakeyaml-1.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-aop.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-asm.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-aspects.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-beans.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-context-support.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-context.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-core.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-expression.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-instrument-tomcat.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-instrument.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-jdbc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-jms.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-orm.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-oxm.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-test.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/spring-tx.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/testng-6.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xalan-2.7.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xercesImpl-2.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xml-apis-1.3.04.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPageDriver.java" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPageDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/rrd/desktop/core/AcceptanceTestBase.java" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/core/AcceptanceTestBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/rrd/desktop/calls/FlashTextHasValueCall.java" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/calls/FlashTextHasValueCall.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sfapi/SeleniumRCTest.java" afterPath="$PROJECT_DIR$/src/sfapi/SeleniumRCTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop.iml" afterPath="$PROJECT_DIR$/desktop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/rrd/desktop/test/test.properties" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/test/test.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractTestBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="desktop.iws" />
@@ -90,7 +10,7 @@
     <file path="/Login.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356131956979" ignored="false" />
     <file path="/DefaultSeleniumFlex.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356055388011" ignored="false" />
     <file path="/SeleniumFlexTestCase.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356055448198" ignored="false" />
-    <file path="/fragment.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357606995613" ignored="false" />
+    <file path="/fragment.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357700068592" ignored="false" />
     <file path="/LoginTest.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356055747233" ignored="false" />
     <file path="/FlexSelenium.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356058345113" ignored="false" />
     <file path="/LoginRegTest.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356059191272" ignored="false" />
@@ -122,7 +42,7 @@
     <file path="$PROJECT_DIR$/src/examples/sfapi/call/FlashDataGridRowHasLabelCall.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356130008613" ignored="false" />
     <file path="$PROJECT_DIR$/src/examples/sfapi/call/FlashDataGridRowHasValueCall.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356130008613" ignored="false" />
     <file path="$PROJECT_DIR$/src/examples/sfapi/call/FlashDataGridRowLabelVisibleCall.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356130008613" ignored="false" />
-    <file path="/Dummy.txt" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357633245292" ignored="false" />
+    <file path="/Dummy.txt" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357698808233" ignored="false" />
     <file path="/SeleniumRCTest.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357604016773" ignored="false" />
     <file path="/a.dummy" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356137787980" ignored="false" />
     <file path="$PROJECT_DIR$/../DesktopLoginPoc/src/SeleniumRCTest.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1356201742086" ignored="false" />
@@ -140,8 +60,9 @@
     <file path="/FlashTextHasValueCall.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357598279748" ignored="false" />
     <file path="/LoginLogoutWebDriver.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357609404750" ignored="false" />
     <file path="/LoginPage.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357670856275" ignored="false" />
-    <file path="/AbstractPage.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357680522906" ignored="false" />
+    <file path="/AbstractPage.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357699363565" ignored="false" />
     <file path="/FlexMonkium.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357679849212" ignored="false" />
+    <file path="/AbstractTestBase.java" changelist="8c595777-fde1-4f2e-b4f9-0f60c73f0869" time="1357700005197" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,22 +85,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPageDriver.java" line="62" class="com.rrd.desktop.core.AbstractPageDriver$1" package="com.rrd.desktop.core">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -215,6 +120,22 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPageDriver.java" line="62" class="com.rrd.desktop.core.AbstractPageDriver$1" package="com.rrd.desktop.core">
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -224,19 +145,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlexMonkium.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/FlexMonkium.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="0" selection-end="1223" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FlexCommandProcessor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/FlexCommandProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="205" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="30" column="62" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -245,7 +157,27 @@
       <file leaf-file-name="AbstractPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="67" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="19" column="49" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="1" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginPageDriver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPageDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="27" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -255,17 +187,24 @@
         <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPageDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="4" selection-start="237" selection-end="289" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Get.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/Get.java">
+      <file leaf-file-name="AcceptanceTestBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AcceptanceTestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="52" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.68134713">
+            <state line="61" column="0" selection-start="1932" selection-end="2886" vertical-scroll-proportion="-11.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractTestBase.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractTestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="95" selection-start="860" selection-end="860" vertical-scroll-proportion="0.6721698">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,11 +212,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlashTextHasValueCall.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/calls/FlashTextHasValueCall.java">
+      <file leaf-file-name="LoginPageAcceptanceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/test/LoginPageAcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="312" selection-end="346" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Get.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/Get.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="30" selection-start="1866" selection-end="1884" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -286,9 +236,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/FlexSelenium.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="19" selection-start="548" selection-end="552" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -316,7 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPageDriver.java" />
         <option value="$PROJECT_DIR$/src/com/rrd/desktop/test/LoginPageAcceptanceTest.java" />
         <option value="$PROJECT_DIR$/src/com/rrd/desktop/core/AcceptanceTestBase.java" />
         <option value="$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPageDriver.java" />
@@ -332,6 +279,7 @@
         <option value="$PROJECT_DIR$/src/com/rrd/desktop/core/FlexMonkium.java" />
         <option value="$PROJECT_DIR$/src/com/rrd/desktop/core/FlexCommandProcessor.java" />
         <option value="$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPage.java" />
+        <option value="$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractTestBase.java" />
       </list>
     </option>
   </component>
@@ -371,7 +319,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -487,6 +434,10 @@
               <option name="myItemId" value="desktop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -542,21 +493,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="86" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="88" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.09832842" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="88" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="86" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="86" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/flex-ui-selenium-0.1.1.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="91" />
@@ -572,10 +524,10 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -584,8 +536,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -596,12 +548,12 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.rrd.selenium.framework" />
       <recent name="com.rrd.desktop" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.rrd.desktop.calls" />
@@ -620,19 +572,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -661,6 +600,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -902,7 +854,11 @@
       <created>1357598684930</created>
       <updated>1357598684930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started flex monkium branch">
+      <created>1357681039881</created>
+      <updated>1357681039881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -926,13 +882,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="827" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.49317408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3281471" sideWeight="0.49317408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3281471" sideWeight="0.48546043" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4526167" sideWeight="0.67360115" order="3" side_tool="false" content_ui="tabs" />
@@ -941,7 +896,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25318247" sideWeight="0.46501705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30375427" sideWeight="0.24328147" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329661" sideWeight="0.7454031" order="3" side_tool="false" content_ui="tabs" />
@@ -951,6 +905,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44045368" sideWeight="0.7556357" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281471" sideWeight="0.48546043" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25318247" sideWeight="0.46501705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -994,7 +950,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving project to FlexMonkium." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started flex monkium branch" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1009,6 +965,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Migrated tests from junit to testNg" />
     <MESSAGE value="Moving project to FlexMonkium." />
+    <MESSAGE value="Started flex monkium branch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1022,38 +979,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/selenium-2.28.0/selenium-java-2.28.0-srcs.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="2" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#1062#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/page/MainPageDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPageDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="1" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/calls/FlashCallTimer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
@@ -1077,16 +1002,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/flashselenium-java-client-extension-1.0.jar!/com/thoughtworks/selenium/FlashSelenium.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.3549223">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AcceptanceTestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="597" selection-end="622" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="28" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.3549223" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/calls/FlashTextHasValueCall.java">
@@ -1103,16 +1019,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/FlexCommandProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/FlexSelenium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="205" selection-end="225" vertical-scroll-proportion="0.0">
+        <state line="23" column="19" selection-start="548" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="30" selection-start="1866" selection-end="1884" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="1" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/page/LoginPageDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/test/LoginPageAcceptanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="67" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+        <state line="19" column="49" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1120,24 +1068,27 @@
     <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractPageDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="4" selection-start="237" selection-end="289" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/FlexSelenium.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AcceptanceTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="548" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="61" column="0" selection-start="1932" selection-end="2886" vertical-scroll-proportion="-11.4">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/Get.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/FlexCommandProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="52" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.68134713">
+        <state line="30" column="62" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rrd/desktop/core/AbstractTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="95" selection-start="860" selection-end="860" vertical-scroll-proportion="0.6721698">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
